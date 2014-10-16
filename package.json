@@ -2,7 +2,7 @@
   "name": "tab_manager",
   "title": "tab_manager",
   "id": "jid1-UMVkeaKwUqJeXg",
-  "description": "a basic add-on",
+  "description": "Small addon providing a context menu to move tabs",
   "author": "",
   "license": "MPL 2.0",
   "version": "0.1"
