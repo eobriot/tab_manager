@@ -8,7 +8,11 @@ self.port.on('loadPanel', function(tab_list) {
    //console.log('Load Panel');
    //console.log(tab_list);
    div_tab = document.getElementById('tablist'); 
-   div_tab.innerHTML = "";
+   console.log(div_tab.innerHTML);
+//   div_tab.innerHTML = "";
+  while (div_tab.firstChild) {
+       div_tab.removeChild(div_tab.firstChild);
+  }
    list_element = document.createElement("ul");
    for each (tab in tab_list) {
       item = document.createElement("li");
